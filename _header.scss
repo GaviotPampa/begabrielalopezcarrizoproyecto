@@ -1,0 +1,35 @@
+#header {
+    background: white;
+    height: 150px;
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+    position: fixed; 
+}
+.header-banner{
+    background: rgb(10,6,14);
+    background: radial-gradient(circle, #0b0710 46%, #9c48ca 91%, #ada4b1 100%);
+    padding: 1px; 
+    text-align: center;
+    color: azure;
+    height: 1.5em;
+    width: 100%;
+    box-shadow:  0px 10px 10px -6px #62526c;
+}
+b {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: 2, 1;
+    animation-direction: alternate;
+}
+    
+@keyframes slidein {
+   from {
+    margin-left: 100%;
+    width: 300%
+   }
+   to {
+    margin-left: 0%;
+    width: 100%;
+   }
+}

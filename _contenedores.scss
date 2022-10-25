@@ -1,0 +1,18 @@
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+         "hijo hijo"
+         "hija hija";
+   .hijo{
+        grid-area: "hijo";
+        background-color: $color-primario;
+    }  
+
+    .hija{
+        grid-area: "hija";
+ 
+    }  
+      
+}
+
+
