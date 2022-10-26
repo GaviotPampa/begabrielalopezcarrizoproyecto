@@ -8406,7 +8406,7 @@ body {
 
 .header-banner {
   background: #0a060e;
-  background: radial-gradient(circle, #0b0710 46%, #9c48ca 91%, #ada4b1 100%);
+  background: radial-gradient(circle, #000000 46%, #aa6fe6 91%, #ada4b1 100%);
   padding: 1px;
   text-align: center;
   color: azure;
@@ -8466,7 +8466,7 @@ b {
   font-family: inherit;
   font-size: 1em;
   font-weight: bolder;
-  padding-right: 0.3125em;
+  padding-right: 5px;
   padding-left: 0px; }
 
 nav ul {
@@ -8494,7 +8494,7 @@ ul li {
   font-family: inherit;
   font-size: 1em;
   font-weight: bolder;
-  padding-right: 0.3125em;
+  padding-right: 5px;
   padding-left: 0px; }
 
 .menusecundario {
@@ -8509,6 +8509,10 @@ ul li {
     background-color: #aa6fe6; }
   .contenedor .hija {
     grid-area: "hija"; }
+
+.fotoscoleccion, .fotos-beauty1, .fotos-cuadradas12 {
+  height: 500px;
+  margin: 2em 2em 2em 2em; }
 
 /* video */
 iframe {
@@ -8538,7 +8542,7 @@ iframe {
 .promolooks .fotos-promo {
   width: 200px;
   height: 400px;
-  margin: 0.5rem;
+  margin: 8px;
   margin-top: 50px;
   margin-right: auto; }
 
@@ -8556,8 +8560,7 @@ iframe {
 
 /* imagenes de coleccion*/
 .fotoscoleccion {
-  width: 100%;
-  height: 500px; }
+  width: 100%; }
 
 .fotoscoleccion5 {
   width: 100%;
@@ -8565,30 +8568,17 @@ iframe {
 
 /* imagenes de  beauty*/
 .fotos-beauty {
-  width: 18.75em;
+  width: 300px;
   height: 300px;
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  margin-bottom: 2em;
-  object-fit: cover; }
+  margin: 2em 2em 2em 2em; }
 
 .fotos-beauty1 {
-  width: 25em;
-  height: 500px;
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  margin-bottom: 2em;
-  object-fit: cover; }
+  width: 400px; }
 
 .fotos-beauty2 {
   width: 200px;
   height: 200px;
-  margin-top: 1em;
-  margin-right: 2em;
-  margin-left: 2em;
-  margin-bottom: 2em; }
+  margin: 2em 2em 2em 2em; }
 
 /* imagenes accesorios */
 .fotos-cuadradas {
@@ -8602,35 +8592,21 @@ iframe {
 .fotos-cuadradas1 {
   width: 400px;
   height: 200px;
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  margin-bottom: 2em; }
+  margin: 2em 2em 2em 2em; }
 
 .fotos-cuadradas11 {
-  width: 25em;
+  width: 400px;
   height: 300px;
-  padding-top: 3em;
-  padding-right: 3em;
-  padding-left: 3em;
-  padding-bottom: 3em;
+  padding: 3em 3em 3em 3em;
   margin-right: 3em; }
 
 .fotos-cuadradas12 {
-  width: 25em;
-  height: 500px;
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  margin-bottom: 2em; }
+  width: 25em; }
 
 .fotos-cuadradas13 {
   width: 300px;
   height: 450px;
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  margin-bottom: 2em; }
+  margin: 2em 2em 2em 2em; }
 
 /* efectos beauty */
 .zoom {
@@ -8642,7 +8618,7 @@ iframe {
 
 /* efectos imagenes */
 .borderefect:hover {
-  border: 2px solid black; }
+  border: 2px solid #000000 0, 0, 0; }
 
 .imagen:hover {
   -webkit-transform: rotateY(180deg);
@@ -8669,18 +8645,12 @@ table {
   border: #8f0ca3d9 2px solid; }
 
 th {
-  border: black 1px solid;
-  padding-top: 1em;
-  padding-right: 2em;
-  padding-bottom: 1em;
-  padding-left: 2em; }
+  border: #000000 1px solid;
+  padding: 1em 2em 1em 2em; }
 
 td {
-  border: black 1px solid;
-  padding-top: 1em;
-  padding-right: 2em;
-  padding-bottom: 1em;
-  padding-left: 2em; }
+  border: #000000 1px solid;
+  padding: 1em 2em 1em 2em; }
 
 .tablapromo {
   display: flex;
@@ -8707,7 +8677,7 @@ h2, .h2 {
   font-size: 2em;
   color: #aa6fe6;
   margin-bottom: 50px;
-  padding-top: 30px;
+  padding-bottom: 30px;
   padding-bottom: 30px; }
 
 h3, .h3 {
@@ -8791,7 +8761,7 @@ footer {
     font-size: 1.5rem;
     text-align: center;
     text-decoration: none;
-    color: black; } }
+    color: #000000; } }
 
 /* Estilos Escritorio */
 @media all and (min-width: 701px) {
@@ -8804,7 +8774,7 @@ footer {
     display: block;
     padding: 0.5rem 1rem;
     text-decoration: none;
-    color: black;
+    color: #000000;
     transition: 0.5s; }
   .nav__link:hover {
     opacity: 0.5; } }
@@ -8829,7 +8799,7 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #a011d4;
+    background: #aa6fe6;
     transform: translateX(-100vw);
     transition: 0.5s; }
   /* Muestra el nav */
@@ -8848,7 +8818,7 @@ footer {
     font-size: 1.5rem;
     text-align: center;
     text-decoration: none;
-    color: black; } }
+    color: #000000; } }
 
 /* Estilos Escritorio */
 @media all and (min-width: 701px) {
@@ -8865,7 +8835,7 @@ footer {
     display: block;
     padding: 0.5rem 1rem;
     text-decoration: none;
-    color: black;
+    color: #000000;
     transition: 0.5s; }
   .nav__link:hover {
     opacity: 0.5; } }
@@ -8899,4 +8869,4 @@ footer {
     font-size: 1.5rem;
     text-align: center;
     text-decoration: none;
-    color: black; } }
+    color: #000000; } }

@@ -1,15 +1,23 @@
-h1 {
+ //operadores 
+ $espaciados: 5px;
+ //extend
+ %texto1 {
     margin-top: 150px;
     margin-bottom: 50px;
     font-weight: 50px;
     line-height: 1.2;
  }
+
+h1 {
+    @extend %texto1;
+ }
+
  h2 {
     font-size: 2em;
-    color: #aa6fe6;
+    color: $color-primario;
     margin-bottom: 50px;
-    padding-top: 30px;
-    padding-bottom:  30px; 
+    padding-bottom:  $espaciados*6; 
+    padding-bottom:  $espaciados*6; 
 }
 
 h3 {
@@ -19,8 +27,8 @@ h3 {
 
  }
  h2 h3 {
-    padding-top: 30px;
-    padding-bottom:  30px; 
+    padding-top: $espaciados*6;
+    padding-bottom:  $espaciados*6; 
     font-family: "Barlow Condensed",Arial, Helvetica, sans-serif;
  }
 
@@ -29,6 +37,6 @@ div .parrafo{
     box-sizing: border-box;  
     text-align: center;
     padding-right: 200px;
-    padding-bottom: 30px;
+    padding-bottom:  $espaciados*6; 
     padding-left: 200px;
  }

@@ -7,8 +7,8 @@
     position: fixed; 
 }
 .header-banner{
-    background: rgb(10,6,14);
-    background: radial-gradient(circle, #0b0710 46%, #9c48ca 91%, #ada4b1 100%);
+    background: #0a060e;
+    background: radial-gradient(circle,$color-fuentes 46%, $color-primario 91%, #ada4b1 100%);
     padding: 1px; 
     text-align: center;
     color: azure;

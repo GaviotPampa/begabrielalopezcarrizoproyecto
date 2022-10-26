@@ -1,25 +1,26 @@
+
 /* tabla de promociones*/
 table {
     border: #8f0ca3d9 2px solid;
  }
  
+ @mixin bordes-table {
+    border:$color-fuentes 1px solid;
+    padding: $paddingtabla;
+
+}
  th {
-    border: black 1px solid;
-    padding-top: 1em;
-    padding-right: 2em;
-    padding-bottom: 1em;
-    padding-left: 2em;
-  }
+   @include bordes-table;
+
+}
   
  td{  
-    border: black 1px solid;
-    padding-top: 1em;
-    padding-right: 2em;
-    padding-bottom: 1em;
-    padding-left: 2em;
-  }
+    @include bordes-table;
+
+}
+
  .tablapromo{
     display: flex;
     justify-content: center;
     padding-bottom: 5em;
- }
+}

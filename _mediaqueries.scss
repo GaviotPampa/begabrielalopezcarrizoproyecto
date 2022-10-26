@@ -45,7 +45,7 @@
        font-size: 1.5rem;
        text-align: center;
        text-decoration: none;
-       color: black;
+       color: $color-fuentes;
     }
 }
  /* Estilos Escritorio */
@@ -62,7 +62,7 @@
        display: block;
        padding: 0.5rem 1rem;
        text-decoration: none;
-       color: black;
+       color: $color-fuentes;
        transition: 0.5s;
     }
   
@@ -93,7 +93,7 @@
        left: 0;
        right: 0;
        bottom: 0;
-       background: #a011d4;
+       background: $color-primario;
        transform: translateX(-100vw);
        transition: 0.5s;
     }
@@ -120,7 +120,7 @@
        font-size: 1.5rem;
        text-align: center;
        text-decoration: none;
-       color: black;
+       color:$color-fuentes;
     }
 }
  
@@ -144,7 +144,7 @@
        display: block;
        padding: 0.5rem 1rem;
        text-decoration: none;
-       color: black;
+       color: $color-fuentes;
        transition: 0.5s;
     }
  
@@ -187,7 +187,7 @@
        font-size: 1.5rem;
        text-align: center;
        text-decoration: none;
-       color: black;
+       color: $color-fuentes;
     }
 }
  
