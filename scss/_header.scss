@@ -5,6 +5,7 @@
     left: 0; 
     top: 0; 
     position: fixed; 
+    z-index: 99;
 }
 .header-banner{
     background: #0a060e;
@@ -32,4 +33,20 @@ b {
     margin-left: 0%;
     width: 100%;
    }
+}
+
+#logo-home{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 8.125rem;
+    padding-top:0px; 
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: 100px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+
+    display: flex;
+    justify-content: center;
 }

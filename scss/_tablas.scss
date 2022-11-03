@@ -4,11 +4,7 @@ table {
     border: #8f0ca3d9 2px solid;
  }
  
- @mixin bordes-table {
-    border:$color-fuentes 1px solid;
-    padding: $paddingtabla;
-
-}
+ 
  th {
    @include bordes-table;
 

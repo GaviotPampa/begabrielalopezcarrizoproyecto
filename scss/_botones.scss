@@ -1,0 +1,28 @@
+.registro-registro {
+    margin-top: 1em;
+    margin-right: 4px;
+    margin-bottom: 1em;
+    margin-left: 4px; }
+
+.botonesregistro {
+    background-color: #aa6fe6; 
+    height:50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border-color: #aa6fe6;  
+    font-size:14px;
+    line-height:32px;
+    text-transform: uppercase;
+}
+.botonesregistro:hover{
+        opacity: 0.50;
+        -moz-opacity: .50;
+        filter:alpha (opacity=50);
+      }
+.botonesregistro {
+    color:#fff;
+    text-decoration:none;
+    padding:5px 10px 5px 10px;
+    margin: 30px 15px;
+}

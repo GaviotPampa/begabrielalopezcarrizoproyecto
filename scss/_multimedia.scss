@@ -3,7 +3,7 @@
     margin: $margin;
 }
  /* video */
- iframe {
+iframe {
     border-width: 2px;
     border-color: initial;
     border-image: initial; 
@@ -25,23 +25,23 @@
     width: 220px;
     height: 350px;
  }
- .fotoshome {
+.fotoshome {
     object-position:10px ;
  
  }
  /* imagenes de promociones*/
- .promolooks .fotos-promo{
+.promolooks .fotos-promo{
     width: 200px;
     height: 400px;
     margin: 8px;
     margin-top: 50px;
     margin-right: auto;
     
- }
- .pagina-principal .promolooks {
+}
+.pagina-principal .promolooks {
     display: flex;
     justify-content: center;
- }
+}
  
 /* imagenes de new in*/
 .fotos-newin{
@@ -50,39 +50,39 @@
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: 2em;
- }
+}
  /* imagenes de coleccion*/
- .fotoscoleccion {
+.fotoscoleccion {
     width: 100%;
     @extend%espaciosimg;
- }
- .fotoscoleccion5{
+}
+.fotoscoleccion5{
     width: 100%;
     height: 300px;
- }
+}
  
  /* imagenes de  beauty*/
- .fotos-beauty{
+.fotos-beauty{
     width: 300px;
     height: 300px;
     margin: $margin;
 }
 
- .fotos-beauty1{
+.fotos-beauty1{
     width: 400px;
     @extend%espaciosimg;
 
 
 }
 
- .fotos-beauty2 {
+.fotos-beauty2 {
     width: 200px;
     height: 200px;
     margin:$margin;
- }
+}
  
    /* imagenes accesorios */
-   .fotos-cuadradas {
+.fotos-cuadradas {
     width: 200px;
     height: 200px;
     margin-top: 1em;
@@ -90,7 +90,7 @@
     margin-left: 2em;
     margin-bottom: 2em;
  }
- .fotos-cuadradas1{
+.fotos-cuadradas1{
     width: 400px;
     height: 200px;
     margin:$margin;

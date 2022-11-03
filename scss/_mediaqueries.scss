@@ -1,0 +1,43 @@
+
+/* nedia queries  */
+
+@media all and (max-width: 992px) {
+ 
+   /* Oculta el nav en la parte izquiera */
+   .nav {
+     display: none;
+   }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  
+
+    .logomobile{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    }
+}
+
+
+@media all and (min-width: 701px) {
+    
+    .header {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       padding: 1rem;
+}
+}
+  
+ 
+ 
+ 
+  
+
+ 
