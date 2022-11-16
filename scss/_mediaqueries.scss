@@ -1,43 +1,277 @@
+// media queries  /
 
-/* nedia queries  */
-
-@media all and (max-width: 992px) {
- 
-   /* Oculta el nav en la parte izquiera */
-   .nav {
-     display: none;
+@media all and (max-width: 1045px) {
+   #header {
+      height: 100px;
    }
+
+
+   /* Oculta el nav principal */
+   .header-banner {
+      display: none;
+   }
+
+   .nav {
+      display: none;
+   }
+
+
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  
+@media (min-width: 576px) {
+   .footer {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      box-sizing: border-box;
+      padding: 15px 15px;
 
-    .logomobile{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-    
-    }
+   }
+
+   .logomobile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+   }
+
+   .logofooter {
+      padding: 5px;
+      margin-top: 20px;
+      margin-right: 90px;
+      margin-left: 70px;
+
+   }
+
+
 }
 
 
 @media all and (min-width: 701px) {
-    
-    .header {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       position: fixed;
-       top: 0;
-       left: 0;
-       right: 0;
-       padding: 1rem;
-}
-}
-  
- 
- 
- 
-  
 
- 
+   .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 1rem;
+   }
+
+   .colorfondo {
+      margin-top: 10px;
+
+   }
+
+   .estilo-c {
+      width: 30%;
+   }
+
+   .contenedortexto {
+      width: 70%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      justify-content: center;
+
+   }
+
+   .tablapromo {
+      width: 70%;
+      padding-bottom: 15px;
+      margin-right: 15px;
+      margin-left: 15px;
+   }
+
+
+}
+
+
+@media screen and (max-width: 540px) {
+   .colorfondo {
+      background-color: $color-primario;
+      margin-top: 10px;
+
+   }
+
+   .logofooter {
+      padding: 5px;
+      margin-top: 20px;
+      margin-right: 90px;
+      margin-left: 70px;
+
+   }
+
+   .footer {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      box-sizing: border-box;
+      padding: 15px 15px;
+   }
+
+   .p {
+      margin: 15px;
+   }
+
+   /* video */
+   iframe {
+      height: 200px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+   }
+
+
+   .footer {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      padding: $spaciado1;
+
+   }
+
+   .fotos-newin {
+      height: 350px;
+      margin: $margin1;
+      padding: 15px 1px 15px 1px;
+   }
+
+   .estilo-b {
+      height: 470px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+   }
+
+
+   .cajatarjeta {
+      padding-right: 50px;
+      padding-left: 50px;
+      margin-left: 0px;
+
+   }
+
+   %texto1a {
+      margin-top: 150px;
+      margin-right: 15px;
+      margin-left: 15px;
+      text-align: center;
+
+   }
+
+   h1 {
+      @extend %texto1a;
+   }
+
+   h2 {
+      margin: $margin2;
+      padding-top: $espaciados*6;
+      padding-bottom: $espaciados*6;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+
+   h3 {
+      margin-right: 15px;
+      margin-left: 15px;
+   }
+
+   div .parrafo {
+      padding-right: 30px;
+      padding-bottom: $espaciados*6;
+      padding-left: 30px;
+   }
+
+
+   body {
+      margin-top: 10px;
+      margin-bottom: 0;
+
+   }
+
+   .estilo-c {
+      width: 70%;
+   }
+
+
+   .main {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .contenedortexto {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      justify-content: center;
+
+   }
+
+   .tablapromo {
+      width: 30%;
+      padding-bottom: 15px;
+      margin-right: 15px;
+      margin-left: 15px;
+   }
+
+   .wrap {
+      max-width: 800px;
+      margin: 15px;
+   }
+}
+
+@media (min-width: 600px) and (max-width:875px) {
+
+   .contenedortexto {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      justify-content: center;
+
+   }
+
+   .tablapromo {
+      width: 70%;
+      padding-bottom: 15px;
+      margin-right: 15px;
+      margin-left: 15px;
+   }
+
+
+}
+
+
+
+
+
+/* pagina en construccion */
+@media (max-width:1024px) {
+   .column-2 {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+
+@media screen and(max-width: 768px) {
+   .column-2 {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+}
+
+
+
+
+
+@media (max-width:650px) {
+   .column-12 {
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
+
+
+
+
+/* index */

@@ -1,19 +1,20 @@
-%espaciosimg{
+%espaciosimg {
     height: 500px;
     margin: $margin;
 }
- /* video */
+
+/* video */
 iframe {
     border-width: 2px;
     border-color: initial;
-    border-image: initial; 
+    border-image: initial;
     height: 800px;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
     margin-top: 50px;
     margin-bottom: 100px;
- }
-     
+}
+
 /* imagenes index */
 
 .fotoshome {
@@ -24,64 +25,69 @@ iframe {
     margin-right: 0;
     width: 220px;
     height: 350px;
- }
-.fotoshome {
-    object-position:10px ;
- 
- }
- /* imagenes de promociones*/
-.promolooks .fotos-promo{
+    object-position: 10px;
+}
+
+/* imagenes de promociones*/
+.promolooks .fotos-promo {
     width: 200px;
     height: 400px;
-    margin: 8px;
     margin-top: 50px;
-    margin-right: auto;
-    
+    margin-right: 10px;
+    margin-left: 8px;
+
 }
+
 .pagina-principal .promolooks {
     display: flex;
     justify-content: center;
 }
- 
+
 /* imagenes de new in*/
-.fotos-newin{
+.fotos-newin {
     width: 100%;
     height: 600px;
     margin-top: 1em;
     margin-bottom: 1em;
     font-size: 2em;
 }
- /* imagenes de coleccion*/
+
+/* imagenes de coleccion*/
 .fotoscoleccion {
     width: 100%;
     @extend%espaciosimg;
 }
-.fotoscoleccion5{
+
+.fotoscoleccion5 {
     width: 100%;
     height: 300px;
 }
- 
- /* imagenes de  beauty*/
-.fotos-beauty{
+
+/* imagenes de  beauty*/
+.fotos-beauty {
     width: 300px;
     height: 300px;
     margin: $margin;
 }
 
-.fotos-beauty1{
+.fotos-beauty1 {
     width: 400px;
     @extend%espaciosimg;
-
-
 }
 
 .fotos-beauty2 {
     width: 200px;
     height: 200px;
-    margin:$margin;
+    margin: $margin;
 }
- 
-   /* imagenes accesorios */
+
+.fotos-beauty3 {
+    width: 700px;
+    @extend%espaciosimg;
+}
+
+
+/* imagenes accesorios */
 .fotos-cuadradas {
     width: 200px;
     height: 200px;
@@ -89,27 +95,30 @@ iframe {
     margin-right: 2em;
     margin-left: 2em;
     margin-bottom: 2em;
- }
-.fotos-cuadradas1{
+}
+
+.fotos-cuadradas1 {
     width: 400px;
     height: 200px;
-    margin:$margin;
- }
+    margin: $margin;
+}
 
- .fotos-cuadradas11{
+.fotos-cuadradas11 {
     width: 400px;
     height: 300px;
-    padding:$padding;
+    padding: $padding;
     margin-right: 3em;
- }
- .fotos-cuadradas12{
-    width: 25em;  
+}
+
+.fotos-cuadradas12 {
+    width: 25em;
     @extend%espaciosimg;
 
 }
- .fotos-cuadradas13{
+
+.fotos-cuadradas13 {
     width: 300px;
     height: 450px;
-    margin:$margin;
+    margin: $margin;
 
 }

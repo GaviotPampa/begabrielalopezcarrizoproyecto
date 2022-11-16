@@ -1,16 +1,17 @@
  /* efectos beauty */
  .zoom {
     transition: 1;transform: 2s; 
+    &:hover {
+      transform: scale(1.5); 
+   }
  }
       
- .zoom:hover {
-    transform: scale(1.5); 
- }
+ 
 
  
- /* efectos imagenes */
+ /* efectos imagenes promociones*/
  .borderefect:hover {
-   border: 2px solid $color-fuentes(0, 0, 0);
+   border: 2px solid $color-fuentes;
  }
 
 .imagen:hover {
@@ -33,3 +34,4 @@
    transform: rotateY(180deg);
    transform-style: preserve-3d;
 }
+

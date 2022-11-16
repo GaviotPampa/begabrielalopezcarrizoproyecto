@@ -1,17 +1,21 @@
-
 /* main */
 .main {
     min-height: 100vh;
 }
- .paginaprincipal{
-    text-align: center;
-     
-}
-.color-primary {
-   color: $color-fuentes;
+
+.paginaprincipal {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
 }
 
-.contenedortexto{
+.color-primary {
+    color: $color-fuentes;
+}
+
+.contenedortexto {
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;

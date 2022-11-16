@@ -1,14 +1,32 @@
 /* footer revisar espaciados*/
-.footer{
-    background-color: #f2eef6;
+.footer {
+    background-color: $color-fuentes9;
     width: 100%;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 10px;
     margin-bottom: 0px;
     box-sizing: border-box;
-    width: 100%;
-    padding: 30px 30px;
+    padding: $spaciado3;
     align-self: flex-end;
- 
-   
- }
+
+    .parrafosmall {
+        font-size: 16px;
+        padding-top: 10px ;
+        padding-bottom: 20px;
+        display: flex;
+        display: block;
+    }
+
+    .logofooter {
+        margin-left: 8.125rem;
+        padding-top: 100px;
+
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+}

@@ -1,42 +1,170 @@
- //operadores 
- $espaciados: 5px;
- //extend
- %texto1 {
-    margin-top: 150px;
+//operadores 
+$espaciados: 5px;
+
+//extend
+%texto1 {
+    display: block;
+    text-align: center;
+    margin-top: 180px;
     margin-bottom: 50px;
     font-weight: 50px;
     line-height: 1.2;
- }
+    align-items: center;
+
+}
 
 h1 {
     @extend %texto1;
- }
+}
 
- h2 {
+
+h2 {
+    display: block;
+    align-items: center;
     font-size: 2em;
     color: $color-primario;
-    margin-bottom: 50px;
-    padding-bottom:  $espaciados*6; 
-    padding-bottom:  $espaciados*6; 
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-top: $espaciados*6;
+    padding-bottom: $espaciados*6;
 }
 
 h3 {
-     font-size: 1.2em;
-     text-align: center;
-     margin-bottom: 50px;
-
- }
- h2 h3 {
-    padding-top: $espaciados*6;
-    padding-bottom:  $espaciados*6; 
-    font-family: "Barlow Condensed",Arial, Helvetica, sans-serif;
- }
-
-  /* parrafo accesorios*/
-div .parrafo{
-    box-sizing: border-box;  
+    font-size: 1.2em;
     text-align: center;
-    padding-right: 200px;
-    padding-bottom:  $espaciados*6; 
-    padding-left: 200px;
- }
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-top: $espaciados*6;
+
+
+}
+
+.texto3 {
+    font-family: "Optima", Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 50px 50px;
+
+}
+
+h2 h3 {
+    padding-top: $espaciados*6;
+    padding-bottom: $espaciados*6;
+    font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+
+.span1 {
+    font-family: 'Brush Script MT', 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 20px;
+    align-items: center;
+}
+
+.textopromo {
+    padding: $spaciado2;
+}
+
+
+/* parrafo accesorios*/
+div .parrafo {
+    box-sizing: border-box;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: $espaciados*6;
+    padding-left: 30px;
+}
+
+.titulofoot {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+hr {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*ESTILOS de pagina en construccion*/
+.enconstruccion {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*PERSONALIZACIÓN DE P.MANTENIMIENTO*/
+.mantenimiento {
+    height: 750px;
+    width: 100%;
+    padding: 32px;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    background-image: url(../img/be.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.mantenimiento h1,
+.mantenimiento h2,
+.mantenimiento p {
+    font-family: "noto sans", sans-serif;
+
+
+}
+
+.mantenimiento h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 100px 0 48px;
+
+
+}
+
+.mantenimiento h2 {
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    margin: 8px 0;
+
+}
+
+.mantenimiento p {
+    margin: 4px 0 16px;
+    line-height: 2.5em;
+    font-weight: bold;
+
+
+}
+
+.fondotranslucido {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.5), #52b4ff3c);
+    border-radius: 10px;
+    width: 850px;
+
+    padding: -50px;
+    position: fixed;
+    top: 200px;
+    left: 400px;
+}

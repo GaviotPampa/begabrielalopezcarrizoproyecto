@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Description -->
-  <meta name="description" content="Ejemplo de Palabras Clave y Programación">
+  <meta name="description" content="Aca podes registrarte para recibir novedades, realizar consultas y compras excludivas">
   <!-- Keywords -->
-  <meta name="keywords" content="HTML, ASP, JS, META, PALABRAS CLAVE, EJEMPLO">
+  <meta name= "keywords" content="HTML, JS, META, PALABRAS CLAVE,inicio,cuenta,sesiom,usuario">
   <!-- link css bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -28,15 +28,17 @@
     <!-- Listas y links de Navegación -->
     <ul class="navmenu color-primary">
       <li class="navmenu-item">
-        <a class="color-primary" href="../../index.html"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-            fill="currentColor" class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+        <a class="color-primary" href="../../index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+            class="bi bi-house-heart-fill" viewBox="0 0 16 16">
             <path
               d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707L7.293 1.5Z" />
             <path
               d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9.293Zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018Z" />
-          </svg></a>
+          </svg>
+        </a>
       </li>
-      <li>
+      <li class="navmenu-item">
         <a class="color-primary" href="../newin.html">NEW IN</a>
       </li>
       <li>
@@ -57,6 +59,7 @@
     </ul>
   </nav>
 
+  <!-- nav nobile menu hamburguesa -->
   <nav class="navbar navbar-dark bg-black fixed-top  d-lg-none">
     <div class="container-fluid ">
       <a class="navbar-brand " href="#"><img class="logomobile" src="../../img/favicon4-200x100px.png" alt="BE">
@@ -68,8 +71,8 @@
       <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasDarkNavbar"
         aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img class="logomobile"
-              src="../../img/favicon4-200x100px.png" alt="BE"></h5>
+          <img class="logomobile offcanvas-title" id="offcanvasDarkNavbarLabel" src="../../img/favicon4-200x100px.png"
+            alt="BE">
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
         </div>
@@ -102,14 +105,19 @@
                 COLECCION
               </a>
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">Remeras</a></li>
-                <li><a class="dropdown-item" href="#">Pantalones</a></li>
-                <li><a class="dropdown-item" href="#">Blusas/Camisas</a></li>
-                <li><a class="dropdown-item" href="#">Calzado</a></li>
+                <li><a class="dropdown-item" href="#">Remeras</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Pantalones</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Blusas/Camisas</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Calzado</a>
+                </li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">GIFT CARDS</a></li>
+                <li><a class="dropdown-item" href="#">GIFT CARDS</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -121,105 +129,114 @@
       </div>
     </div>
   </nav>
-  </nav>
 
   <main>
-    <!-- Formulario de Inicio de sesion/Crear Cuenta] -->
-    <h3 class="pagina-principal">INICIA SESION</h3>
-    <form class="registro" action="">
-      <div>
-        <label class="registro-registro" for="">E-MAIL</label>
-        <input class="registro-registro" type="email" name="" id=""><svg xmlns="http://www.w3.org/2000/svg" width="16"
-          height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
-          <path
-            d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
-          <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
-        </svg>
+    <!-- Formulario de Inicio de sesion/Crear Cuenta -->
+    <div class="pagina-principal contenedorhijo">
+      <div class="contenedortexto">
+        <h3 class="paginaprincipal">INICIA SESION</h3>
+        <form class="registro" action="">
+          <div>
+            <label class="registro-registro" for="">E-MAIL</label>
+            <input class="registro-registro" type="email" name="" id=""><svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
+              <path
+                d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+              <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
+            </svg>
+          </div>
+          <div>
+            <label class="registro-registro" for="">CONTRASEÑA</label>
+            <input class="registro-registro" type="password" name="" id="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+              <path
+                d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z" />
+              <path
+                d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z" />
+            </svg>
+          </div>
+          <div>
+            <p> ¿HAS OLVIDADO TU CONTRASEÑA?</p>
+          </div>
+        </form>
+        <!--Formularios para registrarse nuevo usuario  -->
+        <h3 class="paginaprincipal">NUEVO USUARIO</h3>
+        <form class="registro" action="">
+          <div>
+            <label class="registro-registro" for="">E-MAIL</label>
+            <input class="registro-registro" type="email" name="" id="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all"
+              viewBox="0 0 16 16">
+              <path
+                d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+              <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
+            </svg>
+          </div>
+          <div>
+            <label class="registro-registro" for="">NOMBRE</label>
+            <input type="text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all"
+              viewBox="0 0 16 16">
+              <path
+                d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+              <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
+            </svg>
+            <label class="registro-registro" for="">APELLIDOS</label>
+            <input class="registro-registro" type="text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all"
+              viewBox="0 0 16 16">
+              <path
+                d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+              <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
+            </svg>
+          </div>
+          <div>
+            <label class="registro-registro" for="">Fecha de Nacimiento</label>
+          </div>
+          <div>
+            <input class="registro-registro" type="date" name="" id="">
+          </div>
+          <div>
+            <label class="registro-registro" for="">CONTRASEÑA</label>
+            <input class="registro-registro" type="password" name="" id="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+              <path
+                d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z" />
+              <path
+                d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z" />
+            </svg>
+            <label class="registro-registro" for="">REPETIR CONTRASEÑA</label>
+            <input class="registro-registro" type="password" name="" id="">
+          </div>
+          <div>
+            <input class="registro-registro" type="checkbox" name="Notificaciones de Correo" id="">
+            <label for="">Suscribite para recibir novedades a través de tu e-mail</label>
+          </div>
+          <div>
+            <input type="checkbox" name="Acepto" id="">
+            <label for=""> Acepto los Términos y Condiciones</label>
+          </div>
+          <div>
+            <input class="botonesregistro" type="submit" value="Crear Cuenta">
+            <input class="botonesregistro" type="reset" value="Limpiar">
+          </div>
+        </form>
       </div>
-      <div>
-        <label class="registro-registro" for="">CONTRASEÑA</label>
-        <input class="registro-registro" type="password" name="" id="">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash-fill"
-          viewBox="0 0 16 16">
-          <path
-            d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z" />
-          <path
-            d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z" />
-        </svg>
-      </div>
-      <div>
-        <p> ¿HAS OLVIDADO TU CONTRASEÑA?</p>
-      </div>
-    </form>
-    <!--Formularios para registrarse nuevo usuario  -->
-    <h3 class="pagina-principal">NUEVO USUARIO</h3>
-    <form class="registro" action="">
-      <div>
-        <label class="registro-registro" for="">E-MAIL</label>
-        <input class="registro-registro" type="email" name="" id=""><svg xmlns="http://www.w3.org/2000/svg" width="16"
-          height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
-          <path
-            d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
-          <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
-        </svg>
-      </div>
-      <div>
-        <label class="registro-registro" for="">NOMBRE</label>
-        <input type="text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-          class="bi bi-check2-all" viewBox="0 0 16 16">
-          <path
-            d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
-          <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
-        </svg>
-        <label class="registro-registro" for="">APELLIDOS</label>
-        <input class="registro-registro" type="text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-          fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
-          <path
-            d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
-          <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
-        </svg>
-      </div>
-      <label class="registro-registro" for="">Fecha de Nacimiento</label>
-      </div>
-      <div>
-        <input class="registro-registro" type="date" name="" id="">
-      </div>
-      <div>
-        <label class="registro-registro" for="">CONTRASEÑA</label>
-        <input class="registro-registro" type="password" name="" id=""><svg xmlns="http://www.w3.org/2000/svg"
-          width="16" height="16" fill="currentColor" class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
-          <path
-            d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z" />
-          <path
-            d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z" />
-        </svg>
-        <label class="registro-registro" for="">REPETIR CONTRASEÑA</label>
-        <input class="registro-registro" type="password" name="" id="">
-      </div>
-      <div>
-        <input class="registro-registro" type="checkbox" name="Notificaciones de Correo" id="">
-        <label for="">Suscribite para recibir novedades a través de tu e-mail</label>
-      </div>
-      <div>
-        <input type="checkbox" name="Acepto" id="">
-        <label for=""> Acepto los Términos y Condiciones</label>
-      </div>
-      <div>
-        <input class="botonesregistro" type="submit" value="Crear Cuenta">
-        <input class="botonesregistro" type="reset" value="Limpiar">
-      </div>
-    </form>
+    </div>
   </main>
 
   <footer class="footer">
     <div>
-      <h6>INFO</h6>
+      <h4>Sólo trabajamos Online</h4>
+      <h5>INFO</h5>
       <ul>
-        <li>ABOUT US</li>
+        <li><a class="color-primary" href="../aboutus.html"> ABOUT US</a></li>
         <li><a class="color-primary" href="../guiadetalles.html"> TABLA DE TALLES</a></li>
         <li><a class="color-primary" href="../frecuentquestions.html"> PREGUNTAS FRECUENTES</a></li>
         <li><a class="color-primary" href="../cambiosydevoluciones.html">CAMBIOS Y DEVOLUCIONES</a></li>
-        <li><a class="color-primary" href="../frecuentquestions.html">TÉRMINOS Y CONDICIONES</a></li>
+        <li><a class="color-primary" href="../terminosycondiciones.html">TÉRMINOS Y CONDICIONES</a></li>
       </ul>
     </div>
     <h6>SUSCRIBITE A NUESTRO NEWSLETTER</h6>
@@ -239,11 +256,11 @@
       </div>
     </form>
     <hr>
-    <p>¿NECESITÁS ASESORAMIENTO PARA TU COMPRA?</p>
-    <p>Déjanos un mensaje y nos pondremos en contacto pronto!</p>
+    <p class="titulofoot">¿NECESITÁS ASESORAMIENTO PARA TU COMPRA?</p>
+    <p class="titulofoot">Dejanos un mensaje y nos pondremos en contacto <span class="span1">¡pronto!</span></p>
     <ul>
       <li>
-        <p>Contactanos</p>
+        <p class="titulofoot">Contactanos</p>
       </li>
       <li>
         <a href="https://m.facebook.com/messenger/?locale=es_LA" target="_blank">
@@ -266,7 +283,7 @@
     </ul>
     <ul>
       <li>
-        <p>Seguinos</p>
+        <p class="titulofoot">Seguinos</p>
       </li>
       <li>
         <a href="https://es-la.facebook.com/" target="_blank">
@@ -300,8 +317,8 @@
     </ul>
     <hr>
     <p>
-      <span> Quiero devolver mi pedido.</span>
-      Be-todos los derechos reservados. Terminos y Condiciones
+      <span class="parrafosmall"> Quiero devolver mi pedido.</span>
+      Be-todos los derechos reservados.
     </p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
