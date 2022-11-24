@@ -1,4 +1,3 @@
-
 .cajatarjeta {
    padding-left: 100px;
    padding-right: 100px;
@@ -6,11 +5,9 @@
 
 }
 
-/* tarjetas-rest index */
+// tarjetas-rest index /
 .wrap {
-   max-width: 1200px;
    margin: 0 auto;
-   /* background-color: rgb(170, 111, 230); */
 
 }
 
@@ -49,7 +46,6 @@
 
 }
 
-
 .cta-wrap_tarjeta-rest {
    display: flex;
    justify-content: space-between;
@@ -71,11 +67,11 @@
    font-weight: bold;
 }
 
-.wrap {
+/* .wrap {
    max-width: 1200px;
    margin: 0 auto;
 }
-
+ */
 .column-2 {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
@@ -87,7 +83,7 @@
 .tarjeta-rest {
    background-repeat: no-repeat;
    height: 700px;
-
+width: 500px;
    display: flex;
    align-items: end;
 }
@@ -128,6 +124,7 @@
    background-image: url(../img/look-pantfluo.jpg);
    background-size: cover;
    margin-bottom: 100px;
+   
 }
 
 .card2 {
@@ -140,120 +137,128 @@
    box-sizing: border-box;
 }
 
+.cuerpo {
+   padding-bottom: 50px;
+}
+
 section {
    width: 100%;
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
    padding: 50px 0;
+   gap: 80px;
 
    h2 {
       width: 100%;
       color: $color-fuentes4;
       font-family: monospace;
+      padding-top: 5px;
    }
 }
 
 /*  .card{
    width: 33.333333%;
  } */
-/* Estilo A */
+//Estilo A /
 .estilo-a {
    font-family: sans-serif;
+
+   a {
+      text-decoration: none;
+      color: $color-fuentes;
+   }
+
+   a:hover {
+      text-decoration: underline;
+   }
+
+   .img-container {
+      overflow: hidden;
+      height: 400px;
+      position: relative;
+   }
+
+   .img-container img {
+      width: 400px;
+      position: absolute;
+      top: -25%;
+      transition: all 0.5s;
+   }
+
+   &:hover .img-container img {
+      transform: scale(1.2);
+   }
 }
 
-.estilo-a a {
-   text-decoration: none;
-   color: $color-fuentes;
-}
 
-.estilo-a a:hover {
-   text-decoration: underline;
-}
-
-.estilo-a .img-container {
-   overflow: hidden;
-   height: 400px;
-   position: relative;
-}
-
-.estilo-a .img-container img {
-   width: 400px;
-   position: absolute;
-   top: -25%;
-   transition: all 0.5s;
-}
-
-.estilo-a:hover .img-container img {
-   transform: scale(1.2);
-}
-
-/* Estilo B */
+//Estilo B /
 .estilo-b {
    font-family: sans-serif;
    text-align: center;
    height: 650px;
 
-}
+   .img-container {
+      overflow: hidden;
+      position: relative;
 
-.estilo-b .img-container {
-   overflow: hidden;
-   position: relative;
+   }
 
-}
+   .img-container img {
+      width: 400px;
 
-.estilo-b .img-container img {
-   width: 400px;
+   }
 
-}
+   .img-container .price {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      font-size: 20px;
+      background: $color-fuentes3;
+      padding: 15px;
+   }
 
-.estilo-b .img-container .price {
-   position: absolute;
-   top: 10px;
-   left: 0;
-   font-size: 20px;
-   background: $color-fuentes3;
-   padding: 15px;
-}
+   .img-container .favorite {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: $color-fuentes3;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+   }
 
-.estilo-b .img-container .favorite {
-   position: absolute;
-   bottom: 10px;
-   right: 10px;
-   background: $color-fuentes3;
-   border-radius: 50%;
-   height: 50px;
-   width: 50px;
-   cursor: pointer;
-}
+   .img-container .favorite svg {
+      transform: translatey(14px);
+   }
 
-.estilo-b .img-container .favorite svg {
-   transform: translatey(14px);
-}
+   .img-container .favorite:hover {
+      background: $color-primario;
+   }
 
-.estilo-b .img-container .favorite:hover {
-   background: $color-primario;
-}
+   .img-container .favorite:hover svg {
+      fill: $color-fuentes3;
+   }
 
-.estilo-b .img-container .favorite:hover svg {
-   fill: $color-fuentes3;
-}
+   a {
+      display: inline-block;
+      margin-top: 2px;
+      text-decoration: none;
+      color: $color-fuentes3;
+      background-color: $color-fuentes;
+      padding: 15px;
+      border: $border;
 
-.estilo-b a {
-   display: inline-block;
-   margin-top: 2px;
-   text-decoration: none;
-   color: $color-fuentes3;
-   background-color: $color-fuentes;
-   padding: 15px;
-   border: $border;
+   }
 
-}
+   a:hover {
+      color: $color-primario;
+      background-color: transparent;
+      border: $border;
+   }
 
-.estilo-b a:hover {
-   color: $color-primario;
-   background-color: transparent;
-   border: $border;
+
 }
 
 .b1 {
@@ -273,79 +278,25 @@ section {
 
 }
 
-/* Estilo B */
+//Estilo B /
 .estilo-b {
    font-family: sans-serif;
    text-align: center;
    height: max-content;
-
-   .img-container {
-      overflow: hidden;
-      position: relative;
    }
 
-   .img-container img {
-      width: 300px;
-   }
+ //Estilo C/
+.section-c {
+   gap: 5px;
+   padding-right: 50px;
+   padding-left: 50px;
 
-   a {
-      display: inline-block;
-      margin-top: 2px;
-      text-decoration: none;
-      color: $color-fuentes3;
-      background-color: $color-fuentes;
-      padding: 15px;
-      border: $border;
-   }
-
-   a:hover {
-      color: $color-primario;
-      background-color: transparent;
-      border: $border;
-   }
 }
 
-.estilo-b .img-container {
-
-   .price {
-      position: absolute;
-      top: 10px;
-      left: 0;
-      font-size: 20px;
-      background: $color-fuentes3;
-      padding: 15px;
-   }
-
-   .favorite {
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      background: $color-fuentes3;
-      border-radius: 50%;
-      height: 50px;
-      width: 50px;
-      cursor: pointer;
-   }
-
-   svg {
-      transform: translatey(14px);
-   }
-
-   &:hover {
-      background: $color-primario;
-   }
-
-   .favorite:hover svg {
-      fill: $color-fuentes3;
-   }
-}
-
-
-/*Estilo C*/
 .estilo-c {
    font-family: sans-serif;
-   width: 70%;
-
+   width: 30%;
+  
    .img-container {
       overflow: hidden;
       height: 430px;
@@ -354,7 +305,7 @@ section {
    }
 
    .img-container img {
-      width: 400px;
+      width: 100%;
       height: 400px;
       top: -60%;
       transition: all 0.5s;
@@ -415,4 +366,7 @@ section {
       border: $border;
 
    }
+}
+.cardhorizontal {
+   width: 800px;
 }

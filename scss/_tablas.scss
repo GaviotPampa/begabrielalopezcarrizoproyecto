@@ -1,5 +1,5 @@
 
-/* tabla de promociones*/
+// tabla de promociones/
 table {
     border: $color-fuentes7 2px solid;
  }
@@ -19,4 +19,11 @@ table {
     display: flex;
     justify-content: center;
     padding-bottom: 5em;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.talles {
+   margin-bottom: 50px;
+   width: 450px;
+   height: 400px;
 }

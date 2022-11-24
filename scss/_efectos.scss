@@ -1,4 +1,4 @@
- /* efectos beauty */
+ // efectos beauty /
  .zoom {
     transition: 1;transform: 2s; 
     &:hover {
@@ -7,9 +7,7 @@
  }
       
  
-
- 
- /* efectos imagenes promociones*/
+ // efectos imagenes promociones/
  .borderefect:hover {
    border: 2px solid $color-fuentes;
  }
