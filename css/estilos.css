@@ -8262,7 +8262,7 @@ b {
 
 nav ul {
   list-style-type: none;
-  font: 1.2em garamond;
+  font: 1.1em garamond;
   font-weight: bolder;
   text-align: center;
   background-color: #aa6fe6;
@@ -8289,7 +8289,11 @@ ul li {
 
 .menusecundario {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-bottom: 10px; }
+
+svg.bi.bi-house-heart-fill {
+  padding-bottom: 10px; }
 
 .contenedor {
   display: grid;
@@ -8404,9 +8408,7 @@ iframe {
 .fotos-cuadradas11 {
   width: 400px;
   height: 300px;
-  padding: 1em;
-  /*     margin-right: 3em;
- */ }
+  padding: 1em; }
 
 .fotos-cuadradas12 {
   width: 25em; }
@@ -8535,8 +8537,8 @@ td {
 
 .tarjeta-rest {
   background-repeat: no-repeat;
-  height: 700px;
-  width: 500px;
+  height: 600px;
+  width: 400px;
   display: flex;
   align-items: end; }
 
@@ -8588,7 +8590,7 @@ section {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 50px 0;
-  gap: 80px; }
+  gap: 10px; }
   section h2, section .h2 {
     width: 100%;
     color: #999;
@@ -8730,9 +8732,6 @@ section {
     color: black;
     background-color: transparent;
     border: 1px solid black; }
-
-.cardhorizontal {
-  width: 800px; }
 
 h1, .h1 {
   display: block;
@@ -8898,7 +8897,7 @@ hr {
   min-height: 40vh; }
 
 .registro {
-  width: 430px;
+  width: 410px;
   text-align: center;
   margin-top: 16px;
   margin-right: 4px;
@@ -8964,7 +8963,7 @@ li {
     display: flex;
     justify-content: center; }
 
-@media all and (max-width: 1045px) {
+@media all and (max-width: 991px) {
   #header {
     height: 100px;
     visibility: hidden; }
@@ -9119,16 +9118,19 @@ li {
     margin-right: 15px;
     margin-left: 15px;
     height: 500px;
-    width: 380px; }
+    width: 360px; }
   .card2 {
     margin-right: 15px;
     margin-bottom: 5px;
     margin-left: 15px;
     height: 500px;
     width: 380px; }
+  .divspan {
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px; }
   .span1 {
-    margin-right: 50px;
-    margin-left: 50px;
     letter-spacing: 1.2px;
     color: chartreuse;
     text-shadow: 1px 1px 2px black, 0 0 1em #29f63a, 0 0 0.2em #41b912; }
@@ -9168,8 +9170,6 @@ li {
   section {
     width: 100%;
     display: flex;
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
     padding: 0px 0;
     gap: 5px; }
   .fotos-beauty3 {
@@ -9194,7 +9194,7 @@ li {
     background: none;
     border: none;
     border-bottom: 1px solid #fff;
-    width: 200px; }
+    width: 150px; }
   form div {
     line-height: 2.5em; }
   form span {
@@ -9204,7 +9204,9 @@ li {
     display: inline-block;
     width: 140px; }
   form div p {
-    font-size: 1em; } }
+    font-size: 1em; }
+  html, body {
+    padding: 0; } }
 
 @media (min-width: 600px) and (max-width: 875px) {
   .contenedortexto {
@@ -9246,6 +9248,10 @@ li {
   .column-12 {
     grid-template-columns: repeat(1, 1fr); } }
 
+/* @media only screen and (max-width: 479px) {
+   html, body {padding:0;}
+   
+   } */
 /* acordeon preguntas frecuentes */
 div.seccion {
   width: 100%;

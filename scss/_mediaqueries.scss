@@ -1,6 +1,6 @@
 // media queries  /
 
-@media all and (max-width: 1045px) {
+@media all and (max-width: 991px) {
    #header {
       height: 100px;
       visibility: hidden;
@@ -256,7 +256,7 @@
       margin-right: 15px;
       margin-left: 15px;
       height: 500px;
-      width: 380px;
+      width: 360px;
    }
 
    .card2 {
@@ -266,10 +266,14 @@
       height: 500px;
       width: 380px;
    }
+   .divspan {
+      margin-top: 30px;
+      margin-right: 10px;
+      margin-bottom: 30px;
+      margin-left: 10px;
 
+   }
    .span1 {
-      margin-right: 50px;
-      margin-left: 50px;
       letter-spacing: 1.2px;
       color: chartreuse;
       text-shadow: 1px 1px 2px black, 0 0 1em rgb(41, 246, 58), 0 0 0.2em rgb(65, 185, 18);
@@ -343,8 +347,7 @@
    section {
       width: 100%;
       display: flex;
-      /* justify-content: space-around; */
-      /* flex-wrap: wrap; */
+     
       padding: 0px 0;
       gap: 5px;
    }
@@ -381,7 +384,7 @@
       background: none;
       border: none;
       border-bottom: 1px solid #fff;
-      width: 200px;
+      width: 150px;
    }
 
    form div {
@@ -402,6 +405,7 @@
    form div p {
       font-size: 1em;
    }
+   html, body {padding:0;}
 
 
 }
@@ -479,3 +483,7 @@
 
 
 }
+/* @media only screen and (max-width: 479px) {
+   html, body {padding:0;}
+   
+   } */

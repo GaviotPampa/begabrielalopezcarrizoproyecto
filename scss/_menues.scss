@@ -10,7 +10,7 @@
  
  nav ul {
     list-style-type: none;
-    font: 1.2em garamond;
+    font: 1.1em garamond;
     font-weight: bolder;
     text-align: center;
     background-color:$color-primario;
@@ -44,6 +44,10 @@
 .menusecundario {
    display: flex;
    justify-content: space-between;
-}
+   padding-bottom: 10px;
 
+}
+svg.bi.bi-house-heart-fill {
+   padding-bottom: 10px;
+}
  
