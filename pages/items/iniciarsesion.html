@@ -136,56 +136,11 @@
     <div class="pagina-principal contenedorhijo">
       <div class="contenedortexto">
         <h3 class="paginaprincipal">INICIA SESION</h3>
-        <form class="registro" action="">
-          <div>
-            <label class="registro-registro" for="">E-MAIL</label>
-            <input class="registro-registro" type="email" name="" id=""><svg xmlns="http://www.w3.org/2000/svg"
-              width="16" height="16" fill="currentColor" class="bi bi-check2-all" viewBox="0 0 16 16">
-              <path
-                d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
-              <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
-            </svg>
-          </div>
-          <div>
-            <label class="registro-registro" for="">CONTRASEÑA</label>
-            <input class="registro-registro" type="password" name="" id="">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
-              <path
-                d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z" />
-              <path
-                d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z" />
-            </svg>
-          </div>
-          <div>
-            <p> ¿HAS OLVIDADO TU CONTRASEÑA?</p>
-          </div>
-        </form>
-        <!--Formularios para registrarse nuevo usuario  -->
-        <h3>NUEVO USUARIO</h3>
-        <form class="registro" action="">
-          <div>
-            <label class="registro-registro" for="">E-MAIL</label>
-            <input class="registro-registro" type="email" name="" id="">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all"
-              viewBox="0 0 16 16">
-              <path
-                d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
-              <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
-            </svg>
-          </div>
-          <div>
-            <label class="registro-registro" for="">NOMBRE</label>
-            <input type="text">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-all"
-              viewBox="0 0 16 16">
-              <path
-                d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
-              <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
-            </svg>
+        <div class="form">
+          <form class="registro" action="">
             <div>
-              <label class="registro-registro" for="">APELLIDOS</label>
-              <input class="registro-registro" type="text">
+              <label class="registro-registro etiqueta" for="">E-MAIL</label>
+              <input class="registro-registro insertion" type="email" name="" id="">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 class="bi bi-check2-all" viewBox="0 0 16 16">
                 <path
@@ -194,16 +149,8 @@
               </svg>
             </div>
             <div>
-              <label class="registro-registro" for="">Fecha de Nacimiento</label>
-            </div>
-            <div>
-              <input class="registro-registro" type="date" name="" id="">
-            </div>
-            <div>
-              <label class="registro-registro" for="">CONTRASEÑA</label>
-            </div>
-            <div>
-              <input class="registro-registro" type="password" name="" id="">
+              <label class="registro-registro etiqueta" for="">CONTRASEÑA</label>
+              <input class="registro-registro insertion" type="password" name="" id="">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
                 <path
@@ -213,25 +160,81 @@
               </svg>
             </div>
             <div>
-              <label class="registro-registro" for="">REPETIR CONTRASEÑA</label>
+              <p> ¿HAS OLVIDADO TU CONTRASEÑA?</p>
+            </div>
+          </form>
+        </div>
+
+        <!--Formularios para registrarse nuevo usuario  -->
+        <h3>NUEVO USUARIO</h3>
+        <div class="form">
+          <form class="registro" action="">
+            <div>
+              <label class="registro-registro etiqueta" for="">E-MAIL</label>
+              <input class="registro-registro insertion" type="email" name="" id="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-check2-all" viewBox="0 0 16 16">
+                <path
+                  d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
+              </svg>
             </div>
             <div>
-              <input class="registro-registro" type="password" name="" id="">
+              <label class="registro-registro etiqueta" for="">NOMBRE</label>
+              <input class="registro-registro insertion" type="text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-check2-all" viewBox="0 0 16 16">
+                <path
+                  d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
+              </svg>
+              <div>
+                <label class="registro-registro etiqueta" for="">APELLIDOS</label>
+                <input class="registro-registro insertion" type="text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-check2-all" viewBox="0 0 16 16">
+                  <path
+                    d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+                  <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
+                </svg>
+              </div>
+              <div>
+                <span>Fecha de Nacimiento</span>
+              </div>
+              <div>
+                <input class="registro-registro insertion" type="date" name="" id="">
+              </div>
+              <div>
+                <label class="registro-registro etiqueta" for="">CONTRASEÑA</label>
+
+                <input class="registro-registro insertion" type="password" name="" id="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+                  <path
+                    d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z" />
+                  <path
+                    d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z" />
+                </svg>
+              </div>
+              <div>
+                <label class="registro-registro etiqueta" for="">Repetir Contraseña</label>
+                <input class="registro-registro insertion" type="password" name="" id="">
+              </div>
+              <div>
+                <input class="registro-registro" type="checkbox" name="Notificaciones de Correo" id="">
+                <label for="">Suscribite para recibir novedades a través de tu e-mail</label>
+              </div>
+              <div>
+                <input type="checkbox" name="Acepto" id="">
+                <label for=""> Acepto los Términos y Condiciones</label>
+              </div>
+              <div>
+                <input class="botonesregistro" type="submit" value="Crear Cuenta">
+                <input class="botonesregistro" type="reset" value="Limpiar">
+              </div>
             </div>
-            <div>
-              <input class="registro-registro" type="checkbox" name="Notificaciones de Correo" id="">
-              <label for="">Suscribite para recibir novedades a través de tu e-mail</label>
-            </div>
-            <div>
-              <input type="checkbox" name="Acepto" id="">
-              <label for=""> Acepto los Términos y Condiciones</label>
-            </div>
-            <div>
-              <input class="botonesregistro" type="submit" value="Crear Cuenta">
-              <input class="botonesregistro" type="reset" value="Limpiar">
-            </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
   </main>

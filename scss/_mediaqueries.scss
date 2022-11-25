@@ -363,14 +363,46 @@
       color: #ebe3e3;
       font-size: 1.5em;
    }
+
    .info-container p {
       padding-right: 10px;
       padding-left: 10px;
-  }
-  .fotoscoleccion, .fotos-beauty1, .fotos-beauty3, .fotos-cuadradas12 {
-   height: 300px;
-   margin: 2em 2em 1em 2em;
-}
+   }
+
+   .fotoscoleccion,
+   .fotos-beauty1,
+   .fotos-beauty3,
+   .fotos-cuadradas12 {
+      height: 300px;
+      margin: 2em 2em 1em 2em;
+   }
+
+   .insertion {
+      background: none;
+      border: none;
+      border-bottom: 1px solid #fff;
+      width: 200px;
+   }
+
+   form div {
+      line-height: 2.5em;
+   }
+
+   form span {
+      color: #fff;
+      font-size: 14px;
+   }
+
+   .etiqueta {
+      display: inline-block;
+      width: 140px;
+
+   }
+
+   form div p {
+      font-size: 1em;
+   }
+
 
 }
 
